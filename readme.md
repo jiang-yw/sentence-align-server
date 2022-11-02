@@ -21,3 +21,7 @@ Build and run the image:
 
     docker build -t sentence-align-server .
     docker run -d -p 8086:8086 sentence-align-server:latest
+
+Or use docker hub(Only support CPU version):
+
+    docker run -d -p 8086:8086 yukwai/sentence-align-server:latest

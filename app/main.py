@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 import uvicorn
 from fastapi import FastAPI, HTTPException
 from fastapi.encoders import jsonable_encoder
